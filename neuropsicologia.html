@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuropsicologia</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e8f8f5, #f9f9f9);
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #34495e;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(90deg, #1abc9c, #16a085);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+        }
+
+        header p {
+            margin: 5px;
+            font-size: 1.2em;
+        }
+
+        /* Navegação */
+        nav {
+            background: #2c3e50;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #34495e;
+        }
+
+        /* Botão de Acesso Rápido */
+        .btn-access {
+            display: inline-block;
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-access:hover {
+            background-color: #16a085;
+        }
+
+        /* Seções */
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Galeria */
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Neuropsicologia</h1>
+        <p>Compreendendo o cérebro e o comportamento humano</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#importancia">Importância</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre a Neuropsicologia</h2>
+            <p>A neuropsicologia investiga como as funções cerebrais estão conectadas ao comportamento humano, ajudando a entender e tratar transtornos neurológicos.</p>
+            <a class="btn-access" href="#importancia">Saiba mais</a>
+        </section>
+
+        <section id="importancia">
+            <h2>Importância</h2>
+            <p> A neuropsicologia é uma ciência fundamental para diversas funções relacionadas à saúde e bem-estar. Sua aplicação é vital para o diagnóstico, tratamento e reabilitação de condições neurológicas como Alzheimer, TDAH e disfunções cognitivas. Com isso, a neuropsicologia desempenha um papel essencial ao melhorar a qualidade de vida de pessoas que enfrentam essas condições, ajudando na compreensão das funções cerebrais e promovendo intervenções efetivas.</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="https://i0.wp.com/humannia.com.br/wp-content/uploads/2023/06/neuropsicologia.jpg?fit=6912%2C3456&ssl=1" alt="Imagem de cérebro">
+                <img src="https://neurolitoral.com.br/wp-content/uploads/2022/10/SITE-NEURO-LITORAL-1-980x453.png" alt="Imagem ilustrativa de pesquisa">
+                <img src="https://img.freepik.com/fotos-premium/conexao-complexa-de-neuronios-rede-neural-pesquisa-de-redes-nervosas-dados-de-celulas-mentais-humanas-ia-geradora_849006-10542.jpg?w=996" alt="Conexões neurais">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>(61)98206-5765</h2>
+            <p>Entre em contato pelo e-mail: <a href="mailto:neuropsicologia@exemplo.com">tatipiracatu@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Neuropsicologia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
